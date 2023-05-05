@@ -1,5 +1,5 @@
 .card {
-    background-color: rgb(143, 145, 146);
+    background-color:  rgb(235, 195, 66);;
     height: 100px;
     width: 44%;
     height: 60px;
@@ -12,4 +12,8 @@
 }
 .card strong{
     font-size: 18px;
+}
+
+.card img{
+    width: 40px;
 }

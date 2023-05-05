@@ -1,14 +1,38 @@
-.container{
+.container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
-.container h1{
-    margin: 84px 0 24px;
+.titulo{
+    display: flex;
+    text-align: center;
+    margin-left: 189px;
+}
+.container header {
+    /* margin: 84px 0 24px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+.user{
+    margin-left: 820px;
+    position: fixed;
+    top: 10px;
+    background-color: rgb(236, 198, 74);
+    padding: 7px;
+    border-radius: 6%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container header img {
+    width: 60px;
+    height: 40%;
+    border-radius: 30PX;
+    margin-left: 7PX;
 }
 
-.container input{
+
+.container input {
     width: 40%;
     padding: 24px;
     background-color: rgb(228, 225, 225);
@@ -16,12 +40,13 @@
     border: none;
     font-size: 16px;
 }
-.container button{
+
+.container button {
     width: 25%;
     padding: 24px;
     font-weight: 700;
-    
-    background-color: rgb(55, 137, 231);
+
+    background-color: rgb(235, 195, 66);
     color: white;
     border: none;
     border-radius: 5px;
@@ -30,6 +55,21 @@
 
     transition: filter 0.2s;
 }
-.container button:hover{
-    filter:brightness(0.8)
+
+.container button:hover {
+    filter: brightness(0.8)
+}
+
+.container header {
+    margin: 84px 0 24px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container header div {
+    display: flex;
+    align-items: center;
 }
